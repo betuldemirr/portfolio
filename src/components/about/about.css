@@ -1,0 +1,90 @@
+.aboutContainer {
+  height: 100vh;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.aboutLeft {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-color: #ec994b;
+  height: 60%;
+  width: 100%;
+  margin-right: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.319), 0 6px 20px 0 rgba(239, 11, 11, 0.57);
+}
+.aboutLeft ul li {
+  margin-top: 1rem;
+  list-style: none;
+}
+.aboutRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-color: #ec994b;
+  border-width: 3px;
+  height: 60%;
+  width: 100%;
+  margin-left: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.319), 0 6px 20px 0 rgba(239, 11, 11, 0.57);
+}
+
+.title {
+  color: #ec994b;
+}
+.explain {
+  color: white;
+  font-size: 17px;
+  padding: 2rem;
+}
+
+.skillContainer {
+  display: flex;
+  flex-direction: row;
+
+}
+.skill {
+  color: #ec994b;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.skill img {
+  width: 80px;
+  height: 80px;
+}
+
+/*responsive css */
+
+/*mobile and tablet*/
+@media screen and (max-width: 900px) {
+  .aboutContainer {
+    flex-direction: column;
+  }
+  .aboutLeft {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .aboutRight {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+  }
+}
+/*mobile (0 -> 650)
+@media screen and (max-width: 650px) {
+
+}*/

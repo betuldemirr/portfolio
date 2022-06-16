@@ -1,0 +1,46 @@
+.projectContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.header {
+    color: #ec994b;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.projects {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.gitLink {
+    margin-top: 1rem;
+    color: wheat;
+    font-size: 17px;
+}
+
+/* responsive css */
+
+/*mobile and tablet*/
+@media screen and (max-width: 900px) {
+    .projectContainer {
+        flex-direction: column;
+    }
+
+    .projects {
+        display: none;
+    }
+
+}
+
+/*mobile (0 -> 650)
+  @media screen and (max-width: 650px) {
+  
+  }*/

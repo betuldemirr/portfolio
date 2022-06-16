@@ -1,0 +1,29 @@
+.cardContainer {
+  flex: 1;
+  display: flex;
+  margin: 1rem;
+  padding: 1rem;
+  border-style: solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.319),
+    0 6px 20px 0 rgba(239, 11, 11, 0.57);
+  border-color: #ec994b;
+  color: white;
+}
+.cardImage {
+  width: 90%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.cardTitle {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.cardDescription {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.cardBtn {
+    background-color: #ec994b;
+    font-size: 14px;
+    font-weight: bold;
+}

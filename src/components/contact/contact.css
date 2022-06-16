@@ -1,0 +1,61 @@
+.contactContainer {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  padding: 1.5rem;
+  border-style: solid;
+  border-color: #ec994b;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.319), 0 6px 20px 0 rgba(239, 11, 11, 0.57);
+}
+.formText {
+  color: rgb(184, 184, 184);
+  margin-bottom: 1rem;
+}
+.formTitle {
+    border-bottom: 1px solid #ec994b;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.formMessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.formMessage input {
+  margin-bottom: 1rem;
+  width: 80%;
+  padding: 8px;
+  border-width: 3px;
+  border-color: #ec994b;
+}
+.formMessage textarea {
+  margin-bottom: 1rem;
+  width: 80%;
+  padding: 8px;
+  border-width: 3px;
+  border-color: #ec994b;
+}
+.formMessage button {
+  width: 30%;
+  padding: 8px;
+  margin-top: 5px;
+  color: white;
+  background-color: transparent;
+  border-width: 3px;
+  border-color: #ec994b;
+}
+.formMessage button:hover {
+  background-color: #ec994b;
+}
