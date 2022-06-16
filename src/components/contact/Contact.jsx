@@ -13,8 +13,8 @@ const Contact = () => {
           </p>
         </div>
         <div className="formMessage">
-          <input type="text" placeholder="Name" name="name" />
-          <input type="email" placeholder="Email" name="email" />
+          <input required type="text" placeholder="Name" name="name" />
+          <input required type="email" placeholder="Email" name="email" />
           <textarea
             name="message"
             rows="10"
